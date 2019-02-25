@@ -1,0 +1,67 @@
+body{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.con{
+    width:70%;
+    margin: auto;
+    position: inherit;
+    margin-top: 250px;
+    border-radius:10px;
+    z-index: 1;
+    border:aquamarine 1px solid;
+    padding: 0 20px;
+   
+  
+}
+.con1{
+    width:70%;
+    margin: 50px auto;
+    border-radius:10px;
+    z-index: 1;
+    border: aquamarine 1px solid;
+    padding: 0 20px;
+   
+  
+}
+.con1:hover{
+    width:90%;
+    background-color: aquamarine;
+    font-size: 26px;
+}
+.con:hover{
+    width:90%;
+    background-color: aquamarine;
+    font-size: 26px;
+}
+
+
+#top{
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    background-color: azure;
+    border-bottom: 1px #dcd8dc solid;
+    z-index: 3;
+}
+
+#bottom{
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 100%;
+    position: fixed;
+    bottom:0px;
+    background-color: azure;
+    border-top: 1px #dcd8dc solid;
+    z-index: 3;
+    text-align: center;
+    
+}
+a{
+    color: cornflowerblue;
+}
+a:hover{
+    color: darkseagreen;
+}
